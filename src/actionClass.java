@@ -30,6 +30,9 @@ public class actionClass {
 		// Right clicking on Sign in button
 		
 		a.moveToElement(move).contextClick().build().perform();
+		
+		System.out.println("upload this line.");
+		System.out.println("upload second  line.");
 
 	}
 
